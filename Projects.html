@@ -6,7 +6,9 @@
 <a href="index.html"><img src = "image.png" align="left" width="125" height="60"></a>
 
 <hr size = "2" width="155" align = "right" color="EFEFEF">
+
 <style>
+
 a:link {
   color : grey;
   text-decoration: none;
@@ -27,77 +29,27 @@ a:active {
 }
 
 
+.box
+{
+ width: 1000px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
 
-#blankbox1{ 
-                float:left;  
-                background:white; 
-                width:5%; 
-                height:280px; 
-            }
-            #leftbox { 
-                float:left;  
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-            #blankbox{ 
-                float:left;  
-                background:white; 
-                width:9%; 
-                height:280px; 
-            } 
-            
-            #middlebox{ 
-                float: left; 
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-            
-            #rightbox{ 
-                float: right; 
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-
-
-
-            #blankbox2{ 
-                float:bottom left;  
-                background:white; 
-                width:5%; 
-                height:280px; 
-            }
-            #leftbox1{ 
-                float:bottom left;  
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-            #blankbox3{ 
-                float:bottom left;  
-                background:white; 
-                width:9%; 
-                height:280px; 
-            } 
-            
-            #middlebox1{ 
-                float:bottom left; 
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-            
-            #rightbox1{ 
-                float:bottom right; 
-                background:white; 
-                width:25%; 
-                height:280px; 
-            } 
-            
-
-
+.boxes
+{
+margin: 0;
+ padding: 0;
+ min-height: 100vh;
+ background:  ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ font-family: consolas;
+}
 
 
 div.polaroid {
@@ -110,9 +62,6 @@ div.container {
   padding: 10px;
 }
 
-
-
-
 </style>
 
 <p align="right"><font size="4" face="consolas">
@@ -123,14 +72,11 @@ div.container {
 <br><br>
 
 
+<div class = "boxes">
 
-<div id = "boxes"> 
-             
-          
-           <div id = "blankbox1"> 
-                <h2></h2> 
-                
-            </div>
+
+<div class = "box"> 
+                        
               
             <div id = "leftbox"> 
                 <div class="polaroid">
@@ -148,10 +94,7 @@ div.container {
                 </div></div>
             </div>  
             
-             <div id = "blankbox"> 
-                <h2></h2> 
-                
-            </div>             
+                         
            
             <div id = "middlebox"> 
                 <div class="polaroid">
@@ -185,66 +128,7 @@ div.container {
                 </div></div> 
             </div>
          </div>
-
-<br><br><br><br>
-
- 
-<div id = "boxes">         
-          
-           <div id = "blankbox2"> 
-                <h2></h2> 
-                
-            </div>
-              
-            <div id = "leftbox1"> 
-                <div class="polaroid">
-                <a href="#"><img src=""width:100%" ALT="Project in R"></a>
-                <div class="container">
-                <p>Machine learning model</p>
-                <ul>
-                <li>Written in R</li> 
-               
-                </ul>
-                <a href="#">VISIT</a><br>
-                </div></div>
-            </div>  
-
- <p align ="center"><font size="5">This website is under construction.
-                    Current and more projects will be available for public view really soon.
-                    Sorry for the inconvience.</font></p> 
-            
-             <div id = "blankbox3"> 
-                <h2></h2> 
-                
-            </div>             
-           
-            <div id = "middlebox1"> 
-                <div class="polaroid">
-                <a href="#"><img src="" style="width:100%" ALT="Project in Python"></a>
-                <div class="container">
-                <p>Machine Learning Model 2</p>
-                <ul>
-                <li>Written in python</li> 
-                
-                
-                </ul>
-                <a href="#">VISIT</a><br>
-                </div></div>
-            </div> 
-              
-          
-
-            <div id = "rightbox1"> 
-                <div class="polaroid">
-                <a href="#"><img src="" style="width:100%" ALT="Project in R"></a>
-                <div class="container">
-                <p>list and button</p>
-                </div></div> 
-            </div> 
-        </div> 
-
-
-
+ </div>
 
 </body>
 </html>
