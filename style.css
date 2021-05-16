@@ -1,8 +1,16 @@
 *{
     margin: 0;
     padding: 0;
+
     
 }
+body{
+    height:100%;    
+}
+html{
+    height:100%;
+}
+/*-----------------------Scroll Bar-----------------------*/
 
 /* width */
 ::-webkit-scrollbar {
@@ -17,28 +25,41 @@
   /* Handle */
   ::-webkit-scrollbar-thumb {
     background: rgb(156, 156, 156); 
-    
   }
-  
+
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
     background: rgb(110, 110, 110); 
   }
 
 
-
+/*---------------------------- header --------------------------*/
 header{
    /* background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(img1.jpg);*/
-    height:10vh;
+   padding-top: 2.75%;
+   height:10vh;
     background-size: cover;
     background-position: center;
+    margin-left: 1.2%;
+    margin-right: 1%;
     
+}
+.logo{
+    
+    margin-left: 30px;    
+}
+.logo a{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.27em;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
 }
 
 ul{
     list-style-type: none;
-    float: right;
-    margin-top: 25px;
+    float: right;    
+    margin-top: -16px;
 }
 
 ul li{
@@ -47,8 +68,7 @@ ul li{
 ul li a{
     text-decoration: none;
     color: #444040;
-    padding: 5px 20px;
-    
+    padding: 0px 20px;    
     transition: 0.6s ease;
 }
 
@@ -56,6 +76,8 @@ ul li a:hover{
     background-color:rgb(255, 250, 250);
     color: #000000;
 }
+
+/* resume */
 
 /*Some of the code used for embedding the PDF document has been referred from W3Schools
 https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal */
@@ -124,7 +146,9 @@ span.fade{
 }
 
 main{
-    margin-top: 12%;    
+    margin-top: 8%;    
+    margin-left: 5%;
+    height: 100%;
     }
 
 #intro{
@@ -136,17 +160,76 @@ main{
   /*  margin-left: 30px;
     margin-right: 30px;
     font-family: calibri;*/
-    text-align: center;    
+    margin-left: 30px;
+
+    width:50%;
+       
     color: #2c2c2c;
     font-family: 'Quicksand', sans-serif;
 
 }
 
+#page1{
+    height: 100%;
+}
+
+.contact
+{ 
+position: absolute;
+left: 50%;
+ /*bottom: 10px;*/
+ margin-top: 15%;
+ transform: translate(-50%, -50%);
+ /*margin: 0 auto;*/
+ 
+}       
+
+.container
+    {
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     width: 240px;
+     height: 64px;
+     border-radius: 80px;
+    }
+
+
 #work{
-    text-align: center;
+    /* text-align: center; */
+    margin-left: 7.5%;
     font-size:50px; 
+    font-family: 'Quicksand', sans-serif;
+    font-style: bold;
     color:#2c2c2c;
 }
+
+.buttonsBar{
+margin-left: 7.2%;
+margin-right: 5.8%;
+background-color:rgba(255, 247, 247, 0.904);
+}
+
+.buttons {
+    text-align: center;
+    margin: 2em;
+    background-color:rgba(255, 247, 247, 0.904);
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 8px;
+  cursor: pointer;
+  
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 550;
+  }
+  .buttons:hover {
+    background-color: rgb(216, 213, 213);
+  }
+  
 
 .boxes
 {
@@ -164,10 +247,8 @@ main{
     grid-gap: 20px;
     padding: 20px;
     box-sizing: border-box;
-    margin-left: 30px;
-    margin-right: 30px;
-    
-
+    margin-left: 6.55%;
+    margin-right: 4%;    
 }
 /*.box
 {
@@ -256,7 +337,7 @@ transform: translateY(0);
 
 .image__title
 {
-    font-size: 2em;
+    font-size: 1.85em;
     font-weight: bold;
     text-align: center;
 
@@ -264,32 +345,13 @@ transform: translateY(0);
 
 .image__description
 {
-    font-size: 1.25em;
+    font-size: 1.2em;
     margin-top: 0.25em;
     text-align: center;
-
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
-.contact
-{ 
-position: absolute;
-left: 50%;
- /*bottom: 10px;*/
- margin-top: 15%;
- transform: translate(-50%, -50%);
- /*margin: 0 auto;*/
- 
-}       
-
-.container
-    {
-     display: flex;
-     justify-content: space-around;
-     align-items: center;
-     width: 240px;
-     height: 64px;
-     border-radius: 80px;
-    }
 
 html {
         scroll-behavior: smooth;
