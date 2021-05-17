@@ -199,7 +199,9 @@ left: 50%;
      border-radius: 80px;
     }
 
-
+    #works{
+        height: 100%;
+    }
 #work{
     /* text-align: center; */
     margin-left: 7.5%;
@@ -215,7 +217,7 @@ margin-right: 5.8%;
 background-color:rgba(255, 247, 247, 0.904);
 }
 
-.buttons {
+/* .buttons {
     text-align: center;
     margin: 2em;
     background-color:rgba(255, 247, 247, 0.904);
@@ -233,7 +235,7 @@ background-color:rgba(255, 247, 247, 0.904);
   }
   .buttons:hover {
     background-color: rgb(216, 213, 213);
-  }
+  } */
   
 
 .boxes
@@ -299,7 +301,7 @@ height: 190px;
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 20px;
+    border-radius: 15px;
 
 }
 
@@ -318,7 +320,7 @@ height: 190px;
     justify-content: center;
     opacity: 0;
     transition: opacity 0.25s;
-border-radius: 20px;
+border-radius: 15px;
 
 
 }
@@ -363,8 +365,48 @@ html {
         scroll-behavior: smooth;
       }
 
+#skills{
+    height:60%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+    font-family: 'Quicksand', sans-serif;
+    color: #2c2c2c;
+}
+
+#skills .headingSkill{
+    font-size: 50px;
+}
+
+#skillset{
+    margin-top: 15px;
+    /* position: absolute;
+left: 50%;
+transform: translate(-50%, -50%); */
+
+display: flex;
+justify-content: space-evenly;
+
+
+}
+
+
+/* #skills > ol{
+    margin-top: 10px;
+    position: absolute;
+left: 50%;
+transform: translate(-50%, -50%);
+display: block;
+} */
+
+/* #skills>ol>li{
+    /* padding-left: 22px;
+    padding-right: 22px; */
+    
+
+/* } */ 
+
 footer {
-        background: #262b5c;
+        background: #8b8c94;
         color: #fff;
         text-align: center;
         padding: 40px 0;
