@@ -368,9 +368,10 @@ html {
       }
 
 #skills{
-    height:60%;
+    height:70%;
     margin-top: 4%;
     margin-left: 7.5%;
+    margin-right: 6%;
     font-family: 'Quicksand', sans-serif;
     color: #2c2c2c;
     
@@ -385,9 +386,9 @@ html {
     /* position: absolute;
 left: 50%;
 transform: translate(-50%, -50%); */
-
+margin-left: 1%;
 display: flex;
-justify-content: space-evenly;
+justify-content:space-between;
 line-height: 1.6;
 
 
