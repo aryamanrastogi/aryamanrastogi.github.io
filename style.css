@@ -66,6 +66,7 @@ ul li{
     display: inline-block;
 }
 ul li a{
+    font-family: 'Quicksand', sans-serif;
     text-decoration: none;
     color: #444040;
     padding: 0px 20px;    
